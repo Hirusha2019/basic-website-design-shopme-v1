@@ -1,5 +1,5 @@
 # basic-website-design-shopme_v1
-For my final assessment in Web Design for Beginners course module, I created my first simple web page of an ecommerce website named “ShopMe” using basic HTML, CSS and JavaScript.
+For my final assessment in Web Design for Beginners course module, I created my first simple web page of an ecommerce website named “ShopMe” using basic HTML and CSS.
 
 ![screenshot](https://github.com/user-attachments/assets/c20093bf-8869-40b1-9223-af19317b4911)
 

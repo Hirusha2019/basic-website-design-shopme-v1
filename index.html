@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>ShopMe</title>
+</head>
+
+<body>
+  <header id="#">
+    <img src="images/logo.png" alt="logo" id="logo">
+    <h1 id="shopname">ShopMe</h1>
+    <nav>
+      <a href="#" id="home-nav">Home</a>
+      <a href="#products" id="products-nav">Products</a>
+      <a href="#about" id="about-nav">About</a>
+      <a href="#faq" id="faq-nav">FAQ</a>
+      <a href="#contact" id="contact-nav">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <h1 id="topic">Products</h1>
+      <div class="productCardsContainer">
+        <div class="product-card">
+          <div id="product1">
+            <h2 class="product-name">Airpod Pro</h2>
+            <img src="images/Electronic/airpod.jpg" alt="airpod" id="airpod">
+            <h3 class="price">Price: Rs.5000</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div id="product2">
+            <h2 class="product-name">Smart Watch</h2>
+            <img src="images/Electronic/smartwatch.jpg" alt="smartwatch" id="smartwatch">
+            <h3 class="price">Price: Rs.3500</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div id="product3">
+            <h2 class="product-name">Mini Torch</h2>
+            <img src="images/Electronic/torch.jpg" alt="torch" id="torch">
+            <h3 class="price">Price: Rs.1500</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div id="product4">
+            <h2 class="product-name">Men's T-shirt</h2>
+            <img src="images/Fashion/tshirt.jpg" alt="tshirt" id="tshirt">
+            <h3 class="price">Price: Rs.1800</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div id="product5">
+            <h2 class="product-name">Men's Shoes</h2>
+            <img src="images/Fashion/mens-shoes.jpg" alt="mens-shoes" id="mens-shoes">
+            <h3 class="price">Price: Rs.2300</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div id="product6">
+            <h2 class="product-name">Ladies Heel Sandals</h2>
+            <img src="images/Fashion/ladies-shoes.jpg" alt="ladies-shoes" id="ladies-shoes">
+            <h3 class="price">Price: Rs.3800</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div id="product7">
+            <h2 class="product-name">Prima Kottu-Mee</h2>
+            <img src="images/Groceries/noodles.jpg" alt="noodles" id="noodles">
+            <h3 class="price">Price: Rs.150</h3>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="about">
+      <h1 id="topic">About</h1>
+      <p id="about-paragraph">
+        Welcome to ShopMe, your one-stop destination for all your shopping needs! We
+        are a family-owned business that has been serving the community since 2000. Our mission is to provide our
+        customers with the best possible shopping experience, whether it's for groceries, electronics, or fashion.
+      </p>
+      <h2 id="why-shop-with-us">Why Shop With Us?</h2>
+      <ul id="features">
+        <li>Wide Selection of Products</li>
+        <li>Fast and Reliable Delivery</li>
+        <li>Easy Returns and Refunds</li>
+        <li>Customer Satisfaction Guaranteed</li>
+      </ul>
+    </section>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="faq">
+      <h1 id="topic">Frequently Asked Questions</h1>
+      <Table>
+        <tr>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+        <tr>
+          <td>What is your return policy?</td>
+          <td>We offer a 14-day return policy. Please contact us for more information.</td>
+        </tr>
+        <tr>
+          <td>What payment methods are accepted?</td>
+          <td>We accept credit cards, debit cards, and cash on delivery.</td>
+        </tr>
+        <tr>
+          <td>How long does it take to deliver my order?</td>
+          <td>Delivery times vary depending on your location. We aim to deliver within 3-5 business days.</td>
+        </tr>
+      </Table>
+    </section>
+
+    <section id="contact">
+      <h1 id="topic">Contact Us</h1>
+      <p id="contact-paragraph">
+        If you have any questions or feedback, please don't hesitate to contact us. You can reach us through the
+        following channels:
+      </p>
+      <form action="#" onsubmit="submitForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div id="footer-top">
+        <h1 id="footer-shopname">ShopMe</h1>
+        <p id="footer-paragraph">Welcome to ShopMe, Enter Sri Lanka's best online store for all your daily
+          needs.Now, you can order ALL your daily needs from the
+          comfort of your home or anywhere you want! Choose from same-day, next-day & saver to ensure you get what you
+          need when you need it.
+        </p>
+      </div>
+      <div id="footer-body">
+        <div id="footer-box">
+          <div id="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="footer-divider"></div>
+        <div id="footer-box">
+          <div id="social-media">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+              <li><a href="https://www.x.com/" target="_blank">Twitter</a></li>
+              <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <p>&copy; 2024 ShopMe. All rights reserved.</p>
+        <p>Powered by Hirusha</p>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
